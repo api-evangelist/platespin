@@ -1,7 +1,29 @@
 aid: platespin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/platespin.png
 name: Platespin
-description: Platespin is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PlateSpin is a workload virtualization, migration, and protection product line
+  (PlateSpin Migrate, PlateSpin Protect, PlateSpin Forge) originally built by
+  PlateSpin Ltd., acquired by Novell in 2008, subsequently owned by Micro Focus
+  and then OpenText. It is not an independent company: the platespin.com domain
+  301-redirects to Novell's virtualization/workload solutions page and resolves
+  to a Novell IP (130.57.66.19), with the TLS certificate owned by Micro Focus
+  (*.microfocus.com, *.netiq.com). This record was created from an
+  insight-partners VC-portfolio scrape and is a false match against the legacy
+  PlateSpin brand; there is no independent developer portal, public API, or
+  discoverable developer.* / docs.* / api.* surface for PlateSpin as a standalone
+  provider.
 url: https://raw.githubusercontent.com/api-evangelist/platespin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,31 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: absorbed-brand
+x-redirects-to: http://www.novell.com/solutions/virtualization-workload/?r=platespin
+x-absorbed-by: micro-focus (opentext)
+x-enrichment-note: >-
+  platespin.com verified 2026-07-20 as a 301 redirect to Novell; brand absorbed
+  into Micro Focus/OpenText. No independent API surface exists. VC-portfolio
+  match is almost certainly spurious. No artifacts to enrich.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Virtualization
+- Workload Migration
+- Data Center
+- Disaster Recovery
+- Legacy Brand
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
