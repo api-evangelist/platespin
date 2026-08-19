@@ -38,7 +38,7 @@ x-enrichment-note: >-
   platespin.com verified 2026-07-20 as a 301 redirect to Novell; brand absorbed
   into Micro Focus/OpenText. No independent API surface exists. VC-portfolio
   match is almost certainly spurious. No artifacts to enrich.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
